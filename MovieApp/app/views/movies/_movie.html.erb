@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <%= stylesheet_link_tag "moviesmain" %>
+</head>
+<body>
+<div class="describe" id="<%= dom_id movie %>">
+  <p>
+    <strong>Name:</strong>
+  <span class="ans"> <%= movie.name %></span>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <span class="ans"><%= movie.description %></span>
+  </p>
+
+  <p>
+    <strong>Director:</strong>
+    <span class="ans"><%= movie.director %></span>
+  </p>
+
+  <p>
+    <strong>Language:</strong>
+    <span class="ans"><%= movie.language %></span>
+  </p>
+
+</div>
+</body>
+</html>

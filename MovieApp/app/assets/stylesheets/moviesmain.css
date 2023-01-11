@@ -1,0 +1,55 @@
+.movieHeading
+{   text-align: center;
+    color: red;
+    font-size: 50px;
+
+}
+
+.container
+{
+    height: 82%;
+    width:100%;
+    background-color:#e7e7e7;
+    padding: 20px;
+    display: flex;
+    font-size: x-large;
+    
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 5px 18px rgba(237,211,237,1);
+-moz-box-shadow: 10px 10px 5px 18px rgba(237,211,237,1);
+box-shadow: 10px 10px 5px 18px rgba(237,211,237,1);
+    
+
+
+}
+.new
+{
+    margin-left: 50px;
+    color: rgb(193, 18, 18);
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+font:bold;
+    
+}
+html,body
+{
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* this is given to avoid padding */
+}
+.show
+{
+    padding-right: 10px;
+}
+.describe
+{
+    color: blue;
+}
+.ans
+{
+    color: rgb(206, 97, 29);
+}

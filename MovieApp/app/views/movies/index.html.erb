@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <%= stylesheet_link_tag "moviesmain" %>
+</head>
+<body>
+    <p style="color: green"><%= notice %></p>
+
+<h1 class="movieHeading">Movies</h1>
+<div class="new"><%= link_to "Add movie", new_movie_path %></div>
+<div class="container" id="movies">
+  <% @movies.each do |movie| %>
+    <%= render movie %>
+    <p class="show">
+       <%# <%= link_to "Show this movie", movie %>  
+    </p>
+  <% end %>
+</div>
+
+
+</body>
+</html>
+
